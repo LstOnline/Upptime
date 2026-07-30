@@ -5,8 +5,6 @@ repo: upptime # The name of this repository
 sites:
   - name: LstOnline Forum
     url: https://forum.lstonline.de
-  - name: Secret Site
-    url: $SECRET_SITE
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -15,8 +13,9 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: LstOnline Status
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "Status der LstOnline-Dienste"
+  introMessage: "Hier siehst du, welche Dienste gerade erreichbar sind."
+  theme: night
   navbar:
     - title: Status
       href: /
